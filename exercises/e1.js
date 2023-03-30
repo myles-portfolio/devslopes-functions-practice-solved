@@ -46,10 +46,11 @@ logMyMessage('My message');
  * logMessageWithMyName('Andrey') => 'My name is Andrey!'
 */
 
-// Your code goes here...
+function logMessageWithMyName(name) {
+  console.log('My name is ' + name + '!');
+}
 
-
-
+logMessageWithMyName('Myles');
 
 /**
  * ==============================================================
@@ -62,10 +63,11 @@ logMyMessage('My message');
  * logMyInfo('Andrey', 18) => 'My name is Andrey. I am 18 years old!'
 */
 
-// Your code goes here...
+function logMyInfo(name, age) {
+  console.log('My name is ' + name + '. I am ' + age + ' years old!');
+}
 
-
-
+logMyInfo('Myles', 33);
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-1"
