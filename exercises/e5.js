@@ -11,22 +11,28 @@
  * Example2: getDiffTwentySeven(37) => 20
  */
 
-// Your code goes here...
-
-
-
+function getDiffTwentySeven(num) {
+  if (num > 27) { 
+    return Math.abs(num - 27) * 2;
+  } else {
+    return Math.abs(num - 27);
+  }
+}
 
 /** =========================
  * Create a sumOfTwoIntegers(num1, num2) function to compute and return the sum of the two given integers
- * If the two argumants are same, then returns triple their sum.
+ * If the two arguments are same, then returns triple their sum.
  * Example1: sumOfTwoIntegers(13, 14) => 27
  * Example2: sumOfTwoIntegers(12, 12) => 72
  */
 
-// Your code goes here
-
-
-
+const sumOfTwoIntegers = (num1, num2) => {
+  if (num1 === num2) {
+    return (num1 + num2) * 3;
+  } else {
+    return num1 + num2;
+  }
+}
 
 /** =========================
  * Create a isOneOfThemOrTheirSumIsFourty(num1, num2) function to check two given numbers and return a boolean.
@@ -37,10 +43,13 @@
  * Example3: isOneOfThemOrTheirSumIsFourty(23, 16) => false
  */
 
-// Your code goes here...
-
-
-
+const isOneOfThemOrTheirSumIsFourty = function (num1, num2) {
+    if (num1 === 40 || num2 === 40 || num1 + num2 === 40) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-5"
