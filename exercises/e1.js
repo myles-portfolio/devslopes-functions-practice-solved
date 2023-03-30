@@ -30,10 +30,9 @@ logMessage();
  * logMyMessage('My message') => 'My message'
 */
 
-// Your code goes here...
-
-
-
+function logMyMessage('My message'); {
+  
+}
 
 /**
  * ===============================================================
