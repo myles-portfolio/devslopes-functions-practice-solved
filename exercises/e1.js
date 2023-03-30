@@ -30,9 +30,11 @@ logMessage();
  * logMyMessage('My message') => 'My message'
 */
 
-function logMyMessage('My message'); {
-  
+function logMyMessage(message) {
+  console.log(message);
 }
+
+logMyMessage('My message');
 
 /**
  * ===============================================================
